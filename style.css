@@ -1,0 +1,177 @@
+.first-section {
+    display: flex;
+    background-color: #1f2937;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    color: #F9FAF8;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+ul, 
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.first-content-container p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+img.main {
+    width: 500px;
+    height: 250px;
+}
+
+a {
+    color: #e5e7eb;
+}
+
+logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+.third-section .container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    border-radius: 15px;
+}
+
+.third-section {
+    display: flex;
+    align-items: center;
+    padding: 100px 300px;
+    justify-content: space-around;
+}
+
+button {
+    background-color: #3882F6;
+    align-self: center;
+    color: #F9FAF8;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+h2 {
+    font-size: 32px;
+    color: #1f2937;
+}
+
+.quote {
+    display: flex;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    text-align: left;
+    padding: 100px 400px;
+}
+
+div div p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.first-content-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex-basis: 350px;
+    flex-wrap: wrap;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.first-blue {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+div .first-content-container button {
+    align-self: flex-start;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.image-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 150px;
+    text-align: center
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 150px;
+}
+
+em {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.third-section-call {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    padding-left: 80px;
+    color: #F9FAF8;
+}
+
+div div div h1 {
+    margin-bottom: 0;
+}
+
+div .container button {
+    margin: 0px 100px;
+    border: 2px solid white;
+}
+
+div div .image-column img {
+    border: solid #3882f6;
+    border-radius: 25px;
+}
+
